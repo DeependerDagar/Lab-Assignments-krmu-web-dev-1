@@ -1,4 +1,4 @@
-/* Console Quiz Game (paste into DevTools Console) */
+
 (function runConsoleQuiz(){
   const questions = [
   { q: "What is the capital of France?", a: "paris" },
@@ -39,4 +39,5 @@
 
   alert('Quiz finished! Your score: ' + score + ' / ' + questions.length);
   console.log('Quiz result:', {score: score, outOf: questions.length});
+
 })();
